@@ -1,0 +1,52 @@
+/************************
+CARDS
+************************/
+.cards {
+  display: block;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+}
+.cards:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+.cards article {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.cards-card {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  padding: 1.5rem 1rem;
+}
+.cards-card p {
+  line-height: 1.5;
+}
+.cards-img {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  height: 15rem;
+}
+.cards-card h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 0;
+  margin-block-end: 1em;
+}
+@media screen and (min-width: 576px) {
+  .cards-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(368px, 1fr));
+    column-gap: 2rem;
+  }
+  .cards-img {
+    height: 17.5rem;
+  }
+}
+@media screen and (min-width: 850px) {
+  .cards-img {
+    height: 13.75rem;
+  }
+}

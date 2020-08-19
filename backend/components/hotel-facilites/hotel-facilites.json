@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_hotel_facilites_hotel_facilites",
+  "info": {
+    "name": "hotel_facilites",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

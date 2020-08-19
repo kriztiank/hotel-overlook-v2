@@ -1,0 +1,25 @@
+{
+  "const": {
+    "prefix": "c",
+    "body": "const {$1} $2=",
+    "description": "const"
+  },
+  "component": {
+    "prefix": "com",
+    "body": [
+      "import React from 'react';",
+      "export default () => (<div className='Post'>Text</div>)"
+    ],
+    "description": "component"
+  },
+  "log": {
+    "prefix": "fog",
+    "body": ["console.log(\"%cgreen text\", \"color:green\", $1data);"],
+    "description": "Log green"
+  },
+  "map": {
+    "prefix": "m",
+    "body": ["{products.map((product, i) => ($1<div key={i}></div>$2))}"],
+    "description": "map 2 params"
+  }
+}

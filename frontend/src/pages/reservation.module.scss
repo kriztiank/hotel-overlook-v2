@@ -1,0 +1,83 @@
+/*******************************
+ reservation.js - main
+*******************************/
+main {
+  padding: 5rem;
+  margin-top: 40px;
+}
+.main-inner {
+  max-width: 1200px;
+  margin: auto;
+  /* padding y / padding x */
+  padding: 0 1.25rem;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 50% auto;
+}
+
+/*******************************
+ form
+*******************************/
+// ::placeholder {
+//   color: black;
+// }
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.name-field,
+.email-field,
+.phone-field,
+.select-box {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  color: black;
+  border: 2px solid black;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+.radio-buttons {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  color: black;
+  padding: 0.5rem;
+  font-size: 14px;
+  display: flex;
+}
+.radio-text {
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.error {
+  outline-color: red;
+}
+/*******************************
+ buttons
+*******************************/
+/* Button placement */
+.buttons {
+  color: black;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.btn {
+  /* Default button styles removed */
+  all: unset;
+  /* padding y / padding x */
+  padding: 5px 30px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  width: 95px;
+  border: 2px solid black;
+}

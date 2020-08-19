@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_room_facilities_room_facilities",
+  "info": {
+    "name": "room_facilities",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

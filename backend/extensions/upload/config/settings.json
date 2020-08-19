@@ -1,0 +1,8 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "astro-cloud",
+    "api_key": "491127698982586",
+    "api_secret": "qsGFzEXZrE_dqsFO5YIZxUdVvhI"
+  }
+}
