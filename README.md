@@ -1,5 +1,7 @@
 # Webdev project with Gatsby and Strapi
 
+https://hotel-overlook.netlify.app
+
 ### Getting started
 
 **Clone the repository and install dependencies**
